@@ -1,0 +1,28 @@
+.innerbox{
+    overflow-y:auto;
+    /* background-color: rgb(43, 100, 151); */
+    padding: 10px;
+
+}
+
+    /* 滚动条整体样式 */
+.innerbox::-webkit-scrollbar{
+/* 高宽分别对应横竖滚动条的尺寸 */
+    width: 7px;
+
+    scrollbar-arrow-color: red;
+}
+
+    /* 滚动条里面小方块 */
+.innerbox::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: black;
+    scrollbar-arrow-color: red;
+}
+
+/* 滚动条里面轨道 */
+.innerbox::-webkit-scrollbar-track{
+    border-radius:  5px;
+    background: gray;
+
+}

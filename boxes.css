@@ -1,0 +1,401 @@
+/* 首页面板 */
+.box1{
+    width: 500px;
+    background-color:rgb(192, 219, 245);
+    /* height: 600px; */
+    margin-top: 100px;
+    text-align: center;
+    padding: 50px;
+
+
+    border-radius: 7%;
+    animation: appear 1s linear 0s;
+}
+/* 导航菜单面板 */
+.box2{
+    width: 100px;
+    background-color:rgb(216, 232, 247);
+    /* height: 600px; */
+    margin-top: 100px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 10px;
+
+
+    border-radius: 20px;
+    animation: appear 1s linear 0s;
+
+    /* float: left; */
+    position: fixed;
+    border: 4px crimson;
+}
+/* 涂鸦区和碎碎念的主页面框 */
+.box3{
+    width: 900px;
+    background-color:rgb(192, 219, 245);
+    height: 600px;
+    margin-top: 100px;
+    /* margin-left: 200px; */
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 30px;
+    padding-left: 15px;
+
+
+    border-radius: 20px;
+    animation: appear 1s linear 0s;
+
+
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+    display: inline-block;
+
+    
+
+}
+
+.titlebox{
+    position: absolute;
+    /* float: right; */
+    right: 60px;
+    bottom: 60px;
+
+    /* width: 100px;
+    height: 100px; */
+
+    background-color: rgb(43, 128, 203);
+    border-radius: 20%;
+    color: aliceblue;
+
+
+    padding: 40px;
+    text-align: center;
+
+
+    animation: appear 1s linear 0s;
+
+}
+
+/* .titletext{
+    font-family: ;
+} */
+
+.picframe{
+    /* 整个包含画、标题和介绍的box */
+    float:left;
+
+    z-index: 60;
+    margin-right: 80px;
+    margin-bottom: 45px;
+    color: rgb(102, 107, 125);
+
+    /* display: flex; */
+}
+
+.picbox{
+    /* 只装画 */
+    margin: 20px;
+    margin-bottom: 40px;
+
+    width: 300px;
+    height: 350px;
+    background-size: cover;
+    /* float: left; */
+
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(73, 78, 90, 0.47);
+
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+}
+
+
+
+.picexplain{
+    /* 画box同款*/
+    margin: 20px;
+    margin-bottom: 40px;
+
+    width: 260px;
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-size: cover;
+    /* float: left; */
+
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(73, 78, 90, 0.47);
+    background-color: aliceblue;
+
+    display: inline-block;
+    /* float: left; */
+    text-align: center;
+    line-height: 190%;
+
+
+   
+}
+
+.img{
+    clear: both;
+}
+/* 碎碎念的标签纸 */
+.wordbox{
+    margin: 40px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+
+    padding: 30px;
+
+    background-color: aliceblue;
+    width: 700px;
+    /* height: 350px; */
+    border-radius: 5px;
+    box-shadow: 10px 10px rgba(73, 78, 90, 0.47);
+
+    display: inline-block;
+    text-align: left;
+    line-height: 190%;
+
+}
+
+/* 结尾图
+.endbox{
+    width: 700px;
+
+} */
+
+body{
+    background-color: rgb(76, 85, 104);
+
+    text-align: center;
+
+
+}
+.bd1{
+    overflow: hidden;
+}
+
+.p1{
+    color: rgb(71, 78, 83);
+}
+
+
+
+.pAppr{
+    animation: appear3 3s;
+}
+
+.lAppr{
+    animation: appear33 3s linear;
+}
+
+.headAppr{
+    animation: appear2 2s linear;
+}
+
+.aAppr{
+    animation: appear4 4s linear;
+}
+
+
+
+/* .td1{
+    border-left: 20px;
+    background-color: rgb(125, 125, 224);
+    padding: 10px;
+} */
+
+headpic{
+    background: rgb(99, 79, 171);
+    border-radius: 50%;
+    text-align: center;
+
+
+
+}
+
+headpic img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.headimg2{
+    width: 80px;
+    height: 80px;
+}
+
+ul{
+
+    display: inline-block;
+
+}
+.ul2{
+    text-align: center;
+    margin-top: 30px;
+    padding: 0;
+}
+.li1{
+
+    float: left;
+    margin-top: 10px;
+}
+.li2{
+    margin-bottom: 50px;
+    width: 150px;
+}
+
+li>a{
+    text-decoration: none;
+    
+    color: rgb(211, 211, 211);
+    background-color: rgb(76, 85, 104);
+    box-shadow: 5px 5px 3px rgba(32, 40, 59, 0.443);
+
+    padding: 19px;
+    margin-right: 45px;
+    font-size: 15px;
+
+
+
+    border-radius: 15%;
+
+
+}
+
+/* .td{
+    width: 100px;
+} */
+
+.tiny{
+    
+    /* margin-left: 150px; */
+    text-align: right;
+    font-weight: 700;
+    color: rgb(76, 85, 104);
+    /* color:rgb(236, 98, 98); */
+}
+
+.mouse1:hover{
+    opacity: 60%;
+    
+}
+
+.mouse2:hover{
+    color: rgb(76, 85, 104);
+    background-color: rgb(141, 147, 161);
+    box-shadow: none;
+}
+
+/* .mouse3:link{
+    background-color: aliceblue;
+}
+.mouse3:active{
+    background-color: aqua;
+}
+.mouse3:visited{
+    background-color: antiquewhite;
+} */
+
+.colorful{
+    animation: colorful 2s linear  infinite alternate;
+}
+.lightbox{
+    position:absolute;
+    right: 60px;
+    top: 60px;
+}
+/* 按钮样式 */
+.ui_button{    
+    color: rgb(211, 211, 211);
+    background-color: rgb(87, 97, 117);
+    box-shadow: 5px 5px 3px rgba(32, 40, 59, 0.443);
+    border: none;
+
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+@keyframes appear2{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes appear3{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+@keyframes appear33{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+    40%{
+        width: 0;
+        opacity: 0;
+    }
+    70%{
+        width: 500px;
+    }
+}
+@keyframes appear4{
+    0%{
+        opacity: 0;
+    }
+    55%{
+        opacity: 0;
+    }
+    80%{
+        opacity: 100;
+    }
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes colorful{
+    0%{
+        background-color: rgb(31, 252, 252);
+
+    }
+    25%{
+        background-color: rgb(18, 135, 37);
+    }
+    50%{
+        background-color: rgb(250, 215, 38);
+
+    }
+    75%{
+        background-color: rgb(138, 15, 15);
+    }
+    100%{
+        background-color: rgb(253, 38, 224);
+
+    }
+}
