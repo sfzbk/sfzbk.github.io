@@ -1,2 +1,70 @@
-<p>test test 这是一行测试代码！</p>
-<hr>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>水分子的博客</title>
+        <link rel="stylesheet" href="boxes.css">
+        <script>
+            var flag = false;
+            function shin(){
+                if(!flag){
+                    document.getElementById("bac").classList="colorful";
+                    document.getElementById("bac2").classList="box1 breath";
+                    document.getElementById("button1").innerText="停止蹦迪";
+                    document.getElementById("bac3").innerText="晃眼睛吗！晃就对了！！！";
+                    
+                    // 来换个头像
+                    document.getElementById("bac4").src = "pic/headpic3.png";
+                    document.getElementById("bac4").title = "但是这个头像是我画的！";
+                }
+                else{
+                    document.getElementById("bac").classList="";
+                    document.getElementById("bac2").classList="box1";
+                    document.getElementById("button1").innerText="开灯";
+                    document.getElementById("bac3").innerText="还蹦迪吗？";
+                }
+                flag = !flag;
+            }
+        </script>
+
+        <!-- 改一下蹦迪按钮的样式 -->
+        
+    </head>
+    <body id="bac">
+        <center>
+            <div class="box1" id="bac2">
+                <headpic class="headAppr">
+                    <img src="pic/headpic2.png" alt="头像" 
+                    title="很可惜这个头像不是我画的" id="bac4">
+                    
+
+                </headpic>
+                <br>
+                <br>
+                <p class="pAppr p1" id="bac3">欢迎你，我的朋友。今天有什么想看的？<br></p>
+                <br>
+
+
+                <hr color="black" class="lAppr">
+
+                <ul type="none">
+                    <!-- <li><a href="mypage.html" 
+                        >首页</a></li> -->
+                    <li class="li1"><a href="rkgkpage.html" class="mouse2 aAppr">涂鸦区</a></li>
+                    <li class="li1"><a href="wordpage.html" class="mouse2 aAppr">碎碎念</a></li>
+
+                </ul>
+
+
+
+
+
+
+            </div>
+
+            <div class="lightbox">
+                <button onclick="shin()" class="aAppr ui_button mouse2" id="button1">开灯</button>
+            </div>
+        </center>
+    </body>
+</html>
