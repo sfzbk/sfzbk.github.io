@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>水分子的博客</title>
+        <title>水分子的博客etrl's blog</title>
         <link rel="stylesheet" href="boxes.css">
         <script>
             var flag = false;
@@ -10,8 +10,8 @@
                 if(!flag){
                     document.getElementById("bac").classList="colorful";
                     document.getElementById("bac2").classList="box1 breath";
-                    document.getElementById("button1").innerText="停止蹦迪";
-                    document.getElementById("bac3").innerText="晃眼睛吗！晃就对了！！！";
+                    document.getElementById("button1").innerHTML="停止蹦迪<br>stop it";
+                    document.getElementById("bac3").innerHTML="晃眼睛吗！晃就对了！！！<br>I got you!!!";
                     
                     // 来换个头像
                     document.getElementById("bac4").src = "https://s1.ax1x.com/2022/11/25/zYk8uq.jpg";
@@ -20,8 +20,8 @@
                 else{
                     document.getElementById("bac").classList="";
                     document.getElementById("bac2").classList="box1";
-                    document.getElementById("button1").innerText="开灯";
-                    document.getElementById("bac3").innerText="还蹦迪吗？";
+                    document.getElementById("button1").innerHTML='开灯<br>lights on';
+                    document.getElementById("bac3").innerHTML="还蹦迪吗？<br>wanna do it again?";
                 }
                 flag = !flag;
             }
@@ -40,7 +40,7 @@
                 </headpic>
                 <br>
                 <br>
-                <p class="pAppr p1" id="bac3">欢迎你，我的朋友。今天有什么想看的？<br></p>
+                <p class="pAppr p1" id="bac3">欢迎你，我的朋友。今天有什么想看的？<br>welcome, my friend. what would you like to see today?</p>
                 <br>
 
 
@@ -49,8 +49,8 @@
                 <ul type="none">
                     <!-- <li><a href="mypage.html" 
                         >首页</a></li> -->
-                    <li class="li1"><a href="rkgkpage.html" class="mouse2 aAppr">涂鸦区</a></li>
-                    <li class="li1"><a href="wordpage.html" class="mouse2 aAppr">碎碎念</a></li>
+                    <li class="li1"><a href="rkgkpage.html" class="mouse2 aAppr">涂鸦区 pictures</a></li>
+                    <li class="li1"><a href="wordpage.html" class="mouse2 aAppr">碎碎念 notes</a></li>
 
                 </ul>
 
@@ -62,7 +62,7 @@
             </div>
 
             <div class="lightbox">
-                <button onclick="shin()" class="aAppr ui_button mouse2" id="button1">开灯</button>
+                <button onclick="shin()" class="aAppr ui_button mouse2" id="button1">开灯<br>lights on</button>
             </div>
         </center>
     </body>
