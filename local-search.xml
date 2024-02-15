@@ -8,7 +8,7 @@
     <link href="/2024/02/15/newpost/"/>
     <url>/2024/02/15/newpost/</url>
     
-    <content type="html"><![CDATA[<p>折腾半天算是能看到成果了。一切都还很简陋，但已经可以写文章了。</p><p>好吧，今天也是临时起意，又开始折腾个人博客相关的东西。我总是没什么耐心，每次在海量的教程里翻来翻去，做到一半出了岔子，就泄气不想做了。之前也弄过一个纯手写的静态网页，我还挺喜欢；是在CSS作业基础上改进的。但自己纯手写多麻烦呢，每次想做点改动都要从头学一遍CSS和HTML。</p><p>没什么想写的，思维又断片了。先这样吧。</p><hr><p>更新，弄了个网页主题（fluid）。还挺好看。</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">!<span class="hljs-selector-attr">[]</span>(/<span class="hljs-selector-tag">img</span>/IMG_20240212_175054<span class="hljs-selector-class">.jpg</span>)<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>折腾半天算是能看到成果了。一切都还很简陋，但已经可以写文章了。</p><p>好吧，今天也是临时起意，又开始折腾个人博客相关的东西。我总是没什么耐心，每次在海量的教程里翻来翻去，做到一半出了岔子，就泄气不想做了。之前也弄过一个纯手写的静态网页，我还挺喜欢；是在CSS作业基础上改进的。但自己纯手写多麻烦呢，每次想做点改动都要从头学一遍CSS和HTML。</p><p>没什么想写的，思维又断片了。先这样吧。</p><hr><p>更新，弄了个网页主题（fluid）。还挺好看。</p>]]></content>
     
     
     <categories>
