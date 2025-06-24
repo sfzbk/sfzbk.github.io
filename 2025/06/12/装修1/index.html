@@ -35,7 +35,7 @@
     <!-- meta -->
 
 
-<title>博客装修记录：添加字数统计 | 卢那蒂克</title>
+<title>博客装修记录1：添加字数统计 | 卢那蒂克</title>
 
 
 
@@ -43,15 +43,15 @@
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="博客装修记录：添加字数统计前置条件：较为基础的html，css知识  博客根目录bash下载hexo-wordcount插件 1npm install hexo-wordcount --save  插件会添加下面的数据字段。可以用来在需要的位置插入 12&lt;%&#x3D;wordcount(post.content) %&gt;         &#x2F;&#x2F; 纯中文+英文单词数量（推荐）&lt;%&#x3D;totalc">
+    <meta name="description" content="基础html和css还有点印象吗？那就很简单">
 <meta property="og:type" content="article">
-<meta property="og:title" content="博客装修记录：添加字数统计">
-<meta property="og:url" content="http://example.com/2025/06/12/%E8%AE%B0%E5%BD%95%EF%BC%9A%E5%90%91%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0%E5%AD%97%E6%95%B0%E7%BB%9F%E8%AE%A1%E6%98%BE%E7%A4%BA/index.html">
+<meta property="og:title" content="博客装修记录1：添加字数统计">
+<meta property="og:url" content="http://example.com/2025/06/12/%E8%A3%85%E4%BF%AE1/index.html">
 <meta property="og:site_name" content="卢那蒂克">
-<meta property="og:description" content="博客装修记录：添加字数统计前置条件：较为基础的html，css知识  博客根目录bash下载hexo-wordcount插件 1npm install hexo-wordcount --save  插件会添加下面的数据字段。可以用来在需要的位置插入 12&lt;%&#x3D;wordcount(post.content) %&gt;         &#x2F;&#x2F; 纯中文+英文单词数量（推荐）&lt;%&#x3D;totalc">
+<meta property="og:description" content="基础html和css还有点印象吗？那就很简单">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-06-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-06-12T13:20:36.171Z">
+<meta property="article:modified_time" content="2025-06-24T07:39:20.622Z">
 <meta property="article:author" content="水分子">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -134,11 +134,18 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        博客装修记录：添加字数统计
+        博客装修记录1：添加字数统计
     </h1>
-    <div class="post-title__meta">
+	
+		<div style="color: rgb(153, 153, 153);">
+        		<p>基础html和css还有点印象吗？那就很简单</p>
+		</div>
+    		
+        <div class="post-title__meta">
         <a href="/archives/2025/06/" class="post-meta__date button">2025-06-12</a>
         
+    <span class="separate-dot"></span><a href="/categories/%E8%A3%85%E4%BF%AE/" class="button">装修</a>
+
  
         
     
@@ -148,6 +155,7 @@
  
 
  
+	<span class="separate-dot"></span>282字
     </div>
 </div>
 
@@ -156,7 +164,7 @@
 <article class="post content-card">
     <div class="post__header"></div>
     <div class="post__content">
-        <h1 id="博客装修记录：添加字数统计"><a href="#博客装修记录：添加字数统计" class="headerlink" title="博客装修记录：添加字数统计"></a>博客装修记录：添加字数统计</h1><p><strong>前置条件：较为基础的html，css知识</strong></p>
+        <p><strong>前置条件：较为基础的html，css知识</strong></p>
 <ol>
 <li><p>博客根目录bash下载hexo-wordcount插件</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-wordcount --save</span><br></pre></td></tr></table></figure>
@@ -164,7 +172,7 @@
 <p>插件会添加下面的数据字段。可以用来在需要的位置插入</p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;%=<span class="title function_">wordcount</span>(post.<span class="property">content</span>) %&gt;         <span class="comment">// 纯中文+英文单词数量（推荐）</span></span><br><span class="line">&lt;%=<span class="title function_">totalcount</span>(site) %&gt;                <span class="comment">// 所有文章的总字数</span></span><br></pre></td></tr></table></figure>
 </li>
-<li><p>博客页面右键<strong>检查</strong>源代码，并在themes&#x2F;主题文件夹&#x2F;layout下找到对应的html文件（很可能在_partial文件夹里）。</p>
+<li><p>博客页面右键<strong>检查</strong>源代码，并在&#x2F;themes&#x2F;主题文件夹&#x2F;layout下找到对应的html文件（很可能在_partial文件夹里）。</p>
 <p>现在我需要的位置（在博文列表页面的每个标题下添加字数显示）对应的是_partial&#x2F;post&#x2F;post-entry.ejs文件里class&#x3D;”post-entry__meta”的div。所以我只要往这个div里面添加我需要的东西就可以了，也就是添加：</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">本文字数：&lt;%=wordcount(post.content) %&gt;字</span><br></pre></td></tr></table></figure>
 
@@ -173,50 +181,13 @@
 <li><p>保存后，可以重新本地预览页面。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo g  <span class="comment">#generate</span></span><br><span class="line">hexo s  <span class="comment">#server</span></span><br></pre></td></tr></table></figure></li>
 </ol>
-
+<!-- flag of hidden posts -->
     </div>
      
-    <div class="post-footer__meta"><p>更新于 2025-06-12</p></div> 
+    <div class="post-footer__meta"><p>更新于 2025-06-24</p></div> 
     <div class="post-entry__tags"></div> 
 </article>
 
-
-    <div class="nav">
-        <div class="nav__prev">
-            
-                <a href="/2025/06/19/%E9%9A%8F%E7%AC%94/" class="nav__link">
-                    <div>
-                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
-                    </div>
-                    <div>
-                        <div class="nav__label">
-                            上一篇
-                        </div>
-                        <div class="nav__title">
-                            随笔
-                        </div>
-                    </div>
-                </a>
-            
-        </div>
-        <div class="nav__next">
-            
-                <a href="/2025/06/09/%E5%91%A8%E8%80%8C%E5%A4%8D%E5%A7%8B/" class="nav__link">
-                    <div>
-                        <div class="nav__label">
-                            下一篇
-                        </div>
-                        <div class="nav__title">
-                            周而复始
-                        </div>
-                    </div>
-                    <div>
-                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
-                    </div>
-                </a>
-            
-        </div>
-    </div>
 
 
 
