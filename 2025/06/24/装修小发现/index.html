@@ -35,7 +35,7 @@
     <!-- meta -->
 
 
-<title>博客装修记录2：自定义一句话简介 | 卢那蒂克</title>
+<title>博客装修记录3：独立的装修目录 | 卢那蒂克</title>
 
 
 
@@ -43,15 +43,15 @@
 
     <!-- OpenGraph -->
  
-    <meta name="description" content="即：自定义新Front-matter变量">
+    <meta name="description" content="博客装修的各种小发现（持续更新） markdown居然能内置html代码啊！！！  想在.md文件里面放个图片居中，本地服务器看还没事，一上传就居中失效了。一看发现，我加在图片两边的center双标签，自动变成了给我图片加的一个 style&#x3D;&quot;text-align: center;&quot;了，然而给图片设置这个居中是没用的……！图片是行内块元素，必须要给它父元素设置这个居中（加个di">
 <meta property="og:type" content="article">
-<meta property="og:title" content="博客装修记录2：自定义一句话简介">
-<meta property="og:url" content="http://example.com/2025/06/24/%E8%A3%85%E4%BF%AE2/index.html">
+<meta property="og:title" content="博客装修记录3：独立的装修目录">
+<meta property="og:url" content="http://example.com/2025/06/24/%E8%A3%85%E4%BF%AE%E5%B0%8F%E5%8F%91%E7%8E%B0/index.html">
 <meta property="og:site_name" content="卢那蒂克">
-<meta property="og:description" content="即：自定义新Front-matter变量">
+<meta property="og:description" content="博客装修的各种小发现（持续更新） markdown居然能内置html代码啊！！！  想在.md文件里面放个图片居中，本地服务器看还没事，一上传就居中失效了。一看发现，我加在图片两边的center双标签，自动变成了给我图片加的一个 style&#x3D;&quot;text-align: center;&quot;了，然而给图片设置这个居中是没用的……！图片是行内块元素，必须要给它父元素设置这个居中（加个di">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-06-23T16:00:00.000Z">
-<meta property="article:modified_time" content="2025-06-24T08:11:30.367Z">
+<meta property="article:modified_time" content="2026-01-29T04:48:18.977Z">
 <meta property="article:author" content="水分子">
 <meta name="twitter:card" content="summary_large_image">
 
@@ -134,13 +134,9 @@
 
 <div class="post-title">
     <h1 class="post-title__text">
-        博客装修记录2：自定义一句话简介
+        博客装修记录3：独立的装修目录
     </h1>
 	
-		<div style="color: rgb(153, 153, 153);">
-        		<p>即：自定义新Front-matter变量</p>
-		</div>
-    		
         <div class="post-title__meta">
         <a href="/archives/2025/06/" class="post-meta__date button">2025-06-24</a>
         
@@ -155,7 +151,7 @@
  
 
  
-	<span class="separate-dot"></span>277字
+	<span class="separate-dot"></span>193字
     </div>
 </div>
 
@@ -164,23 +160,23 @@
 <article class="post content-card">
     <div class="post__header"></div>
     <div class="post__content">
-        <p><strong>自定义新Front-matter变量</strong>：</p>
-<ol>
-<li><p>直接在文章的Front-matter参数部分添加新参数<code>newvaluable: 内容描述</code></p>
+        <h1 id="博客装修的各种小发现（持续更新）"><a href="#博客装修的各种小发现（持续更新）" class="headerlink" title="博客装修的各种小发现（持续更新）"></a>博客装修的各种小发现（持续更新）</h1><ul>
+<li><p>markdown居然能内置html代码啊！！！</p>
 </li>
-<li><p>用if语句检测变量是否存在，可以在对应文件中插入代码等（在对应文件中找到插入位置的方法参照<a href="/2025/06/12/%E8%A3%85%E4%BF%AE1/" title="博客装修记录1：添加字数统计">装修记录1</a>）。格式如下（参考<a target="_blank" rel="noopener" href="https://ethanblog.com/tech/details-for-front-matters-of-hexo.html">网页</a>）：</p>
+<li><p>想在.md文件里面放个图片居中，本地服务器看还没事，一上传就居中失效了。一看发现，我加在图片两边的center双标签，自动变成了给我图片加的一个<code> style=&quot;text-align: center;&quot;</code>了，然而给图片设置这个居中是没用的……！图片是行内块元素，必须要给它父元素设置这个居中（加个div就行）。</p>
 </li>
-</ol>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (post.thumbnail)&#123; %&gt;</span><br><span class="line">  &lt;div class=&quot;post-thumbnail&quot;&gt;</span><br><span class="line">      &lt;a href=&quot;&lt;%- url_for(post.path) %&gt;&quot;&gt;</span><br><span class="line">        &lt;img src=&quot;&lt;%- url_for(post.thumbnail) %&gt;&quot; alt=&quot;&lt;%= post.title %&gt;&quot; itemprop=&quot;image&quot;&gt;</span><br><span class="line">      &lt;/a&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
+<li><p>html用开发者工具js查询字体：</p>
+</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 控制台输入</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">getFontFamily</span>(<span class="params">element</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="variable language_">window</span>.<span class="title function_">getComputedStyle</span>(element).<span class="property">fontFamily</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">let</span> element = <span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;body&#x27;</span>);</span><br><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="title function_">getFontFamily</span>(element));</span><br></pre></td></tr></table></figure>
 
-<p> 然而，当我做到这一步，我无语地发现我根本不需要自己定义一个新变量。因为我打开对应位置的代码之后发现，它早就给我写好了description。如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&lt;% if (post.excerpt) &#123; %&gt;</span><br><span class="line">    &lt;%- post.excerpt %&gt;</span><br><span class="line">&lt;% &#125; else if (post.description) &#123; %&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">        &lt;%- strip_html(post.description) %&gt;</span><br><span class="line">    &lt;/p&gt;</span><br><span class="line">&lt;% &#125; else if (theme.meta.auto_excerpt.enable) &#123; %&gt;</span><br><span class="line">    &lt;p&gt;</span><br><span class="line">        &lt;%- strip_html(truncate(post.content, &#123;length: theme.meta.auto_excerpt.length&#125;)) %&gt;</span><br><span class="line">    &lt;/p&gt;</span><br><span class="line">&lt;% &#125; %&gt;</span><br></pre></td></tr></table></figure>
-
-<p>至少现在更加理解代码语法了，可喜可贺。</p>
+<ul>
+<li>独立页面（如tags，about）文件夹下只能有一个index，多创建会报错</li>
+</ul>
 <!-- flag of hidden posts -->
     </div>
      
-    <div class="post-footer__meta"><p>更新于 2025-06-24</p></div> 
+    <div class="post-footer__meta"><p>更新于 2026-01-29</p></div> 
     <div class="post-entry__tags"></div> 
 </article>
 
